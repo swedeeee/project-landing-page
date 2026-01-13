@@ -1,0 +1,24 @@
+*,
+*:before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #fafaf8;
+  --secondary-color: #e5e7eb;
+  --tertiary-color: #1f2937;
+  --hero-background-color: #1f2937;
+  --button-color: #3882f6;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
