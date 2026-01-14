@@ -29,6 +29,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  padding: 0px 60px;
+  background-color: var(--hero-background-color);
+}
+
 .header-menu-item a {
   color: var(--secondary-color);
 }
@@ -38,7 +43,7 @@ a {
   align-items: center;
   justify-content: space-between;
   background-color: var(--hero-background-color);
-  padding: 15px;
+  padding: 0px 60px;
 }
 
 .header-logo {
@@ -48,7 +53,7 @@ a {
 .hero-container {
   display: flex;
   background-color: var(--hero-background-color);
-  padding: 20px;
+  padding: 60px;
   flex: 1;
 }
 
@@ -58,15 +63,18 @@ a {
   font-weight: 900;
 }
 
-.hero-container-left p {
+.hero-description {
   color: var(--secondary-color);
+  margin-bottom: 10px;
 }
 
 .hero-container {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 100px;
   align-content: center;
+  margin-bottom: 30px;
+  padding: 5px;
 }
 
 .image {
@@ -74,7 +82,9 @@ a {
 }
 
 .information-section {
+  margin-top: 20px;
   background-color: white;
+  text-align: center;
 }
 
 .information-section-title {
@@ -84,20 +94,57 @@ a {
   color: #1f2937;
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 35px;
 }
 
 .info-section-container {
   display: flex;
   gap: 52px;
   justify-content: center;
+  margin-bottom: 35px;
+}
+
+.info-section-text {
+  margin-top: 10px;
 }
 
 .info-section {
-  max-width: 200px;
+  max-width: 150px;
+}
+
+.info-section img {
+  width: 150px;
+}
+
+.testimonial-container {
+  background-color: var(--secondary-color);
+  padding: 35px;
+}
+
+.testimonial-container .quote {
+  display: flex;
+  font-size: 36px;
+  color: var(--hero-background-color);
+  font-weight: 300;
+  padding: 20px 80px;
+  font-style: italic;
+}
+
+.testimonial-container .quote-author {
+  text-align: right;
+  margin-right: 8rem;
+  font-weight: bold;
+}
+
+button {
+  color: var(--primary-color);
+  background-color: var(--button-color);
+  border-color: #3882f6;
+  border-radius: 6px;
+  padding: 4px 15px;
 }
 
 .footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
