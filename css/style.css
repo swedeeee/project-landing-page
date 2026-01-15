@@ -32,6 +32,7 @@ a {
 .container {
   padding: 0px 60px;
   background-color: var(--hero-background-color);
+  flex: 1;
 }
 
 .header-menu-item a {
@@ -55,6 +56,10 @@ a {
   display: flex;
   background-color: var(--hero-background-color);
   padding: 60px;
+  align-items: center;
+  gap: 100px;
+  align-content: center;
+  margin-bottom: 30px;
 }
 
 .hero-title-text {
@@ -66,15 +71,6 @@ a {
 .hero-description {
   color: var(--secondary-color);
   margin-bottom: 10px;
-}
-
-.hero-container {
-  display: flex;
-  align-items: center;
-  gap: 100px;
-  align-content: center;
-  margin-bottom: 30px;
-  padding: 5px;
 }
 
 .image {
@@ -153,7 +149,7 @@ button {
   justify-content: space-around;
   align-items: center;
   margin: 70px 0px;
-  background-color: var(#fff);
+  background-color: white;
 }
 
 .cta-container {
